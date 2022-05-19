@@ -1,10 +1,10 @@
 @media screen and (min-width: 768px) {
-  .mobile {
-    display: none;
-  }
-
   .hiding {
     display: inline;
+  }
+
+  .mobile {
+    display: none;
   }
 
   header {
@@ -33,27 +33,27 @@
     display: flex;
   }
 
-  header > .desktop > #menu > ul > li > a {
+  header > .desktop > .menu > ul > li > a {
     text-decoration: none;
     padding: 15px;
     color: rgb(29, 32, 39);
     font-size: 15px;
   }
 
-  header > .desktop > #menu > ul > li > .about {
+  header > .desktop > .menu > ul > li > .about {
     color: rgb(240, 65, 12);
   }
 
-  #first-section {
+  .first-section {
     margin-top: 100px;
   }
 
-  #first-section > div {
+  .first-section > div {
     width: 80%;
     margin: auto;
   }
 
-  #first-section > div > p {
+  .first-section > div > p {
     color: rgb(240, 65, 12);
     font-size: xx-large;
     margin-bottom: 10px;
@@ -67,74 +67,74 @@
     line-height: 60px;
   }
 
-  #first-section > div > #content {
+  .first-section > div > .content {
     width: 40%;
   }
 
-  #first-section > div > #logo-div {
+  .first-section > div > .logo-div {
     justify-content: flex-start;
   }
 
-  #program-lineup {
+  .program-lineup {
     width: 99%;
   }
 
-  #program-lineup > ul {
+  .program-lineup > ul {
     display: flex;
     width: 80%;
     margin: auto;
   }
 
-  #program-lineup > ul > .activity {
+  .program-lineup > ul > .activity {
     display: block;
     margin: 20px 1px;
     text-align: center;
   }
 
-  #program-lineup > ul > .activity > .activity-info {
+  .program-lineup > ul > .activity > .activity-info {
     width: 100%;
     margin: 20px auto;
   }
 
-  #program-lineup > ul > .activity > .activity-title {
+  .program-lineup > ul > .activity > .activity-title {
     width: 100%;
   }
 
-  #program-lineup div button {
+  .program-lineup div button {
     background-color: inherit;
     width: fit-content;
     margin: 0 35%;
     text-decoration: underline;
   }
 
-  #guests ul {
+  .guests ul {
     display: grid;
     grid-template-columns: auto auto;
     width: 80%;
     margin: auto;
   }
 
-  #partners > div {
+  .partners > div {
     max-width: 80%;
     margin: 0 auto;
   }
 
-  #guests .guest-speakers div {
+  .guests .guest-speakers div {
     width: 68%;
   }
 
-  #partners {
+  .partners {
     background-color: rgb(59, 62, 69);
     text-align: center;
   }
 
-  #partners > h3 {
+  .partners > h3 {
     color: rgb(139, 142, 149);
     font-weight: 400;
     padding: 30px 0 0 0;
   }
 
-  #partners img {
+  .partners img {
     width: 100px;
     padding: 10px;
     margin-bottom: 50px;

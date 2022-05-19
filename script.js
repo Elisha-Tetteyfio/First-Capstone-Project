@@ -43,7 +43,8 @@ const guests = [
   },
 ];
 
-const featuredGuest = document.getElementById('guests');
+const featuredGuest1 = document.getElementsByClassName('guests');
+const featuredGuest = featuredGuest1[0];
 const featuredGuestHeader = document.createElement('h3');
 const featuredGuestList = document.createElement('ul');
 featuredGuestList.classList.add('guest-speakers');
@@ -69,8 +70,8 @@ featuredGuest.prepend(featuredGuestHeader);
 
 let show = document.querySelectorAll('.showing');
 let hide = document.querySelectorAll('.hiding');
-const hideMore = document.getElementById('less');
-const showMore = document.getElementById('more');
+const hideMore = document.querySelector('.less');
+const showMore = document.querySelector('.more');
 
 showMore.addEventListener('click', () => {
   hide.forEach((el) => {
@@ -92,7 +93,7 @@ hideMore.addEventListener('click', () => {
   });
 });
 
-const header = document.querySelector('#mainMenu');
+const header = document.querySelector('.mainMenu');
 
 const menuButton = document.querySelector('.mobile.menu');
 
@@ -100,13 +101,13 @@ menuButton.addEventListener('click', () => {
   header.classList.toggle('menu-open');
 });
 
-const closeMenu = document.querySelector('#close');
+const closeMenu = document.querySelector('.close');
 
 closeMenu.addEventListener('click', () => {
   header.classList.remove('menu-open');
 });
 
-const menuLink = document.querySelectorAll('#menu ul li a');
+const menuLink = document.querySelectorAll('.menu ul li a');
 
 menuLink.forEach((el) => {
   el.addEventListener('click', () => {
