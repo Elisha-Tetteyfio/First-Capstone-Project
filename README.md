@@ -11,9 +11,9 @@
 - CSS
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]( https://elisha-tetteyfio.github.io/First-Capstone-Project/)
 
 
 ## Getting Started
