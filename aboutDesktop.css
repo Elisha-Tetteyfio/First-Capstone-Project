@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+  #first-section > div > p {
+    display: none;
+  }
+
+  #first-section > div > h1 {
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  #first-section > div > #content {
+    width: 70%;
+    margin: auto;
+  }
+
+  #first-section > div > #p1 {
+    margin-top: 50px;
+    display: block;
+  }
+
+  #first-section > div > #mail {
+    display: block;
+  }
+
+  #otherPrograms {
+    padding: 30px 0;
+  }
+
+  #otherPrograms > h3 {
+    padding: 20px;
+  }
+
+  #otherPrograms > div {
+    display: flex;
+  }
+
+  #otherPrograms > div > .programs {
+    width: 45%;
+  }
+
+  #partners {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(39, 42, 49);
+    color: white;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  footer > #imgDiv {
+    width: 20%;
+  }
+}

@@ -1,0 +1,275 @@
+body {
+  background: linear-gradient(rgb(255, 255, 255, 0.55), rgb(255, 255, 255, 0.55)), url("Background/background4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: rgb(39, 42, 49);
+  margin: 0;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+}
+
+.menu-open .desktop {
+  display: block;
+  position: fixed;
+  color: white;
+  width: 100%;
+  margin: 0;
+  background: linear-gradient(rgb(209, 212, 219, 0.7), rgb(209, 212, 219, 0.7)), url(Background/background3.jpg);
+  background-size: cover;
+  height: 100%;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+}
+
+.menu-open > .desktop > img {
+  display: none;
+}
+
+.menu-open > .desktop > #menu {
+  padding: 50px;
+}
+
+.menu-open > .desktop > #menu > ul > li {
+  padding: 30px;
+  font-size: 30px;
+  list-style: none;
+}
+
+.menu-open > .desktop > #menu > ul > li > a {
+  color: rgb(248, 66, 11);
+  text-decoration: none;
+}
+
+#close {
+  display: none;
+}
+
+.menu-open #close {
+  display: block;
+  position: fixed;
+  z-index: 9;
+}
+
+.menu-open .menu {
+  display: none;
+}
+
+header {
+  height: 60px;
+  padding: 20px;
+  background: linear-gradient(rgb(255, 255, 255, 0), rgb(255, 255, 255, 0));
+}
+
+#first-section {
+  color: rgb(240, 65, 12);
+  margin: 10px 0 50px;
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.7));
+  padding: 20px;
+}
+
+#first-section > div > p {
+  font-size: 25px;
+  margin: 0;
+}
+
+h1 {
+  color: #ec5242;
+  font-family: 'cocogoose', serif;
+  font-size: 35px;
+  margin: 0;
+  line-height: 35px;
+}
+
+#first-section > div > #logo-div {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#first-section img {
+  width: 75px;
+  padding: 0;
+}
+
+#first-section > div > #content {
+  border: white 3px solid;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8));
+}
+
+#first-section > div > #content > p {
+  font-size: 13px;
+  color: rgb(89, 92, 99);
+  word-spacing: 3px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+#first-section > div > #date {
+  color: rgb(89, 92, 99);
+  font-family: 'cocogoose', serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+#first-section > div > #meeting {
+  color: rgb(89, 92, 99);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#program-lineup {
+  background-color: rgb(29, 32, 39);
+  color: white;
+  padding: 5px;
+}
+
+#program-lineup > h2 {
+  font-weight: 100;
+  text-align: center;
+}
+
+#program-lineup ul {
+  padding: 0;
+}
+
+#program-lineup .activity {
+  display: flex;
+  padding: 15px;
+  background-color: rgb(109, 112, 119, 0.3);
+  margin: 10px;
+}
+
+#program-lineup .activity .activity-title {
+  color: #ec5242;
+  margin: 2%;
+  width: 30%;
+  font-weight: 600;
+  font-size: large;
+}
+
+#program-lineup .activity .activity-info {
+  width: 60%;
+}
+
+#program-lineup > #button-div {
+  width: 70%;
+  margin: 50px auto;
+}
+
+#program-lineup > div > button {
+  background-color: rgb(255, 92, 66);
+  color: #fff;
+  font-size: 20px;
+  padding: 30px;
+  width: 100%;
+  min-height: 75px;
+  border: none;
+}
+
+#guests {
+  padding: 5%;
+}
+
+#guests > h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#guests ul {
+  padding: 0;
+  width: 80%;
+  margin: auto;
+}
+
+#guests > ul > .guest-speakers {
+  list-style: none;
+}
+
+#guests > ul > .guest-speakers > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+footer > #imgDiv > img {
+  width: 100%;
+}
+
+#guests .guest-speakers img {
+  width: 30%;
+  min-width: 100px;
+  max-width: 500px;
+  height: min-content;
+}
+
+#guests .guest-speakers div div {
+  width: 60%;
+}
+
+#guests .guest-speakers div div .job {
+  color: #ec5242;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+#guests .guest-speakers div div .more-info {
+  color: rgb(89, 92, 99);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#guests .guest-speakers div div h3 {
+  margin: 0;
+  color: rgb(69, 72, 79);
+}
+
+footer {
+  display: flex;
+  width: 70%;
+  margin: 50px auto;
+  align-items: center;
+}
+
+footer > #imgDiv {
+  width: 30%;
+  margin-right: 10%;
+}
+
+footer #textDiv {
+  padding: 20px;
+  text-align: left;
+  font-size: small;
+}
+
+#expand {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.button-style {
+  background-color: #fff;
+  border: 1px solid rgb(69, 72, 79);
+  width: 100%;
+  padding: 10px;
+}
+
+.button-style-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hiding {
+  display: none;
+}

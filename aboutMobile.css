@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(rgb(241, 241, 241, 0.7), rgb(241, 241, 241, 0.7));
+}
+
+#first-section {
+  text-align: center;
+  background: linear-gradient(rgb(241, 241, 241, 0.8), rgb(241, 241, 241, 0.9));
+}
+
+#otherPrograms > p {
+  font-size: 13px;
+}
+
+#first-section > div > p {
+  font-size: 25px;
+  margin: 20px;
+  color: #f14734;
+}
+
+#first-section > div > #content {
+  border: rgb(209, 212, 219) 1px solid;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  color: rgb(89, 92, 99);
+}
+
+#first-section > div > #p1 {
+  color: rgb(89, 92, 99);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#first-section > div > #mail {
+  color: rgb(89, 92, 99);
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+#otherPrograms {
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+#otherPrograms > div {
+  width: 80%;
+  margin: auto;
+}
+
+#otherPrograms > div > .programs {
+  /* background-color: rgb(241, 71, 52); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  margin: 30px auto;
+  font-size: 20px;
+}
+
+#program1 {
+  background: linear-gradient(rgb(201, 41, 22, 0.8), rgb(201, 41, 22, 0.8)), url("background/event1.jpg");
+  color: white;
+}
+
+#program2 {
+  background: linear-gradient(rgb(201, 41, 22, 0.8), rgb(201, 41, 22, 0.8)), url("background/event2.png");
+  color: white;
+}
+
+#partners {
+  background-color: rgb(39, 42, 49);
+  text-align: center;
+  margin-top: 0;
+}
+
+#partners > h3 {
+  color: rgb(139, 142, 149);
+  font-weight: 400;
+  padding: 30px 0 0 0;
+  margin-top: 0;
+}
+
+#partners img {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#partners > div {
+  max-width: 80%;
+  margin: 0 auto;
+}
