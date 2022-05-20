@@ -15,6 +15,7 @@
 
 [Live Demo Link]( https://elisha-tetteyfio.github.io/First-Capstone-Project/)
 
+You can also watch [this video](https://www.loom.com/share/802f3a6eca0243d489670d197fd1b783) to see the details of the project.
 
 ## Getting Started
 

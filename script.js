@@ -43,8 +43,12 @@ const guests = [
   },
 ];
 
-const featuredGuest1 = document.getElementsByClassName('guests');
-const featuredGuest = featuredGuest1[0];
+const program = document.querySelector('.program-lineup');
+const featuredGuest = document.createElement('section');
+featuredGuest.classList.add('guests');
+
+program.after(featuredGuest);
+
 const featuredGuestHeader = document.createElement('h3');
 const featuredGuestList = document.createElement('ul');
 featuredGuestList.classList.add('guest-speakers');
