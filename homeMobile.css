@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(rgb(255, 255, 255, 0.55), rgb(255, 255, 255, 0.55)), url("Background/background4.jpg");
+  background: linear-gradient(rgb(255, 255, 255, 0.55), rgb(255, 255, 255, 0.55)), url("background/background4.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   font-family: sans-serif;
